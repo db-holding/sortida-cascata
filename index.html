@@ -22,6 +22,7 @@
           <a data-menuanchor="sobre" href="#sobre">Sobre</a>
           <a data-menuanchor="produtos" href="#produtos">Produtos</a>
           <a data-menuanchor="parceiros" href="#parceiros">Parceiros</a>
+          <a data-menuanchor="contato" href="#contato">Contato</a>
         </nav>
       </div>
     </div>
@@ -87,6 +88,48 @@
           </div>
         </div>
       </div>
+      <div class="section" id="páginaContato">
+        <form action="https://formspree.io/contato@sortidacascata.com" method="POST"/>
+          <div class="conteúdo">
+            <p>
+              Para entrar em contato, utilize o formulário abaixo ou envie um
+              e-mail para:
+              <a href="mailto:contato@sortidacascata.com">
+                contato@sortidacascata.com
+              </a>
+            </p>
+
+            <hr>
+
+            <label for="nome">Nome:</label>
+            <input
+              id="nome"
+              name="nome"
+              type="text"
+            >
+
+            <label for="email">e-Mail:</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+            >
+
+            <label for="assunto">Assunto:</label>
+            <input
+              id="assunto"
+              name="assunto"
+              type="text"
+              value="Contato"
+            >
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem"></textarea>
+
+            <input type="submit" value="Enviar">
+          </div>
+        </form>
+      </div>
     </div>
 
     <script>
@@ -96,6 +139,7 @@
           'sobre',
           'produtos',
           'parceiros',
+          'contato',
         ],
         autoScrolling: true,
         menu: '#menu',
