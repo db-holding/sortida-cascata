@@ -88,20 +88,19 @@
     </div>
 
     <script>
-      window.addEventListener('load', () => {
-        new fullpage('#fullpage', {
-          anchors: [
-            'home',
-            'sobre',
-            'produtos',
-            'parceiros',
-          ],
-          autoScrolling: true,
-          menu: '#menu',
-          navigation: true,
-          navigationPosition: 'right',
-          slidesNavigation: true,
-        })
+      new fullpage('#fullpage', {
+        anchors: [
+          'home',
+          'sobre',
+          'produtos',
+          'parceiros',
+        ],
+        autoScrolling: true,
+        menu: '#menu',
+        navigation: true,
+        navigationPosition: 'right',
+        slidesNavigation: true,
+        scrollingSpeed: 360,
       })
     </script>
   </body>
