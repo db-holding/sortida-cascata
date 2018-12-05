@@ -50,7 +50,7 @@ html {
 }
 
 #páginaHome {
-  background: url(images/port.jpg?1);
+  background: url(images/port.jpg?3);
   background-size: cover;
 }
 
@@ -65,7 +65,7 @@ html {
 }
 
 #páginaSobre {
-  background: url(images/warehouse.jpg?1);
+  background: url(images/warehouse.jpg?3);
   background-size: cover;
 }
 
@@ -87,7 +87,7 @@ html {
 }
 
 #páginaProdutos {
-  background: url(images/products.jpg?1);
+  background: url(images/products.jpg?3);
   background-size: cover;
 }
 
@@ -113,7 +113,7 @@ html {
 }
 
 #páginaParceiros {
-  background: url(images/partners.jpg?1);
+  background: url(images/partners.jpg?3);
   background-size: cover;
 }
 
@@ -144,7 +144,7 @@ html {
 }
 
 #páginaContato {
-  background: url(images/contact.jpg?1);
+  background: url(images/contact.jpg?3);
   background-size: cover;
 }
 
